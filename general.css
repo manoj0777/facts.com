@@ -1,0 +1,103 @@
+body{
+    
+    background:url(https://images3.alphacoders.com/563/thumb-1920-563119.jpg) no-repeat center center/cover;
+}
+#main{
+   margin:200px;
+    border: 5px solid burlywood;
+    border-radius:10px;
+    background: white;
+    justify-content: center;
+
+}
+
+.tittle{
+    margin:20px;
+    padding:10px;
+    background-color:aqua;
+    border-radius:10px;
+    justify-content: center;
+    text-align:center;
+    box-shadow: 5px 10px 18px blue;
+    font-size:30px;
+    
+}
+
+.tittle h2{
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    color: blueviolet;
+}
+
+
+.question{
+    margin:20px;
+    padding:10px;
+    background-color:rgb(114, 142, 179);
+    border-radius:10px;
+   
+    box-shadow: 5px 10px 18px rgb(39, 148, 57);
+    font-size:30px;
+    
+}
+
+.question-tittle{
+    display:flex;
+   justify-content: space-between;
+}
+.question-tittle p{
+  
+  text-align: center;
+  
+}
+.Question-button {
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: gold;
+  transition: all 0.3s linear;
+}
+
+
+ 
+.question-text {
+  display: none;
+  background-color:rgb(233, 57, 57);
+  padding:5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px rgb(64, 24, 102);
+}
+.show-text .question-text {
+  display: block;
+}
+.minus-icon {
+  display: none;
+}
+.show-text .minus-icon {
+  display: inline;
+}
+.show-text .plus-icon {
+  display: none;
+}
+.Question-button:hover {
+  transform: rotate(90deg);
+}
+
+
+@media screen and (max-width:1100px){
+    #main{
+   margin:20px;
+    border: 3px solid burlywood;
+    border-radius: 2px;
+    background: white;
+    justify-content: center;
+    transition: all 0.3s linear;
+}
+.tittle{
+    font-size: 20px;
+}
+.question{
+    font-size: 18px;
+}
+}
